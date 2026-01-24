@@ -17,7 +17,7 @@
  * under the License.
  */
 
-import { addLabelMapToVerboseMap } from './forecast';
+import addLabelMapToVerboseMap from './addLabelMapToVerboseMap';
 
 describe('echarts forecast', () => {
   it('Should add label map to verbose map correctly', () => {
